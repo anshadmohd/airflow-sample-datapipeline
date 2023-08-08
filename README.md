@@ -13,6 +13,7 @@ Before running the data pipeline, ensure you have the following components set u
 `
 pip install sqlalchemy
 `
+
 `
 pip install pandas
 `
@@ -31,6 +32,7 @@ Follow these steps to use and run the data pipeline:
 ``
 airflow webserver -p 8080
 ``
+
 Access the Airflow UI: Open a web browser and navigate to http://localhost:8080 (replace with your server's address). Here, you can monitor and manage your data pipeline.
 
 Run the DAG: In the Airflow UI, locate the local_txt_to_db_pipeline DAG and trigger the upload_task manually or let the scheduler execute it based on the defined schedule interval.
