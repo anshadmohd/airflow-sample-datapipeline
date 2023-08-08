@@ -9,6 +9,7 @@ Before running the data pipeline, ensure you have the following components set u
 * MySQL Database: Set up a MySQL database where you want to upload the data.
 
 * Python Libraries: Install the required Python libraries using the following command:
+
 `
 pip install sqlalchemy
 `
@@ -18,13 +19,14 @@ pip install pandas
 ## Usage
 Follow these steps to use and run the data pipeline:
 
-1. Configure the Script: Open the local_txt_to_db_pipeline.py script in a text editor and make the following configurations:
+1. Configure the Script: Open the local_txt_to_db_pipeline.py script in a text editor and make the following configurations
 
 * Update the txt_file_path variable with the path to your source text file.
 * Update the csv_file_path variable with the desired path for the generated CSV file.
 * Update the db_url variable with your MySQL database connection details.
 
-2. Run the Data Pipeline: Start the Airflow webserver by running the following command in your terminal:
+2. Run the Data Pipeline: Start the Airflow webserver by running the following command in your terminal
+   
 
 ``
 airflow webserver -p 8080
