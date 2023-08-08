@@ -9,7 +9,12 @@ Before running the data pipeline, ensure you have the following components set u
 * MySQL Database: Set up a MySQL database where you want to upload the data.
 
 * Python Libraries: Install the required Python libraries using the following command:
-
+`
+pip install sqlalchemy
+`
+`
+pip install pandas
+`
 ## Usage
 Follow these steps to use and run the data pipeline:
 
