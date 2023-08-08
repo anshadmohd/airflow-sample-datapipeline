@@ -1,4 +1,4 @@
-# Data Pipeline with Airflow: Text to Database Upload
+# Data Pipeline with Airflow: Text to CSV Database Upload
 This repository contains a sample data pipeline created using Apache Airflow, designed to convert text data into a CSV file and upload it to a MySQL database.
 
 ## Prerequisites
